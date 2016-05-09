@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    
+   <script src="jquery.js"></script>      
+  
+
+
+<body> <form id="contrat">
+    <label for="name"> Nom : </label>
+    <input id="name" name="name" type="text" value=""/>
+    <input type="submit" value="Nouveau contrat"/>
+</form>
+</body>
+
+ <script> $("#contrat" ).submit(function(event){
+    var formContents = $(this).serialize();
+    alert(formContents);
+    console.dir(formContents);
+    $.post("contrat_api.php", formContents); 
+});      </script>
+</html>

@@ -1,0 +1,99 @@
+body {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #C9CCE2; 
+	color: #252D5E;
+	padding: 3px;
+}
+
+#main {
+	padding: 5px;
+	padding-left:  25px;
+	padding-right: 25px;
+	background-color: #FFFFFF;
+	border-radius: 10 10 100px 5px;
+}
+
+h5 {
+  font-family : cookies&milk, sans-serif;
+  font-size: 50px;
+  color: #181D3D;
+}
+
+h1 {
+	font-family : Georgia, sans-serif;
+	color: #181D3D;
+	font-size: 40px;
+	}
+
+h2 {
+	font-family: Georgia, serif;
+	border-bottom: 10px solid #FF990A;
+	color: #181D3D;
+	font-size: 30px;
+}
+
+#entete {
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #C9CCE2;
+	
+}
+
+#first {
+}
+    
+
+/* Table */
+
+table {
+	width:100%;
+}
+
+table, th, td {
+	border: 1px solid grey;
+	border-collapse : collapse;
+	padding: 5px;
+}
+
+th {
+	text-align: center;
+}
+td { width : 50% }
+table tr:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+/* Navigation */
+
+ul#menu {
+	padding: 0;
+	margin-bottom: 11px;
+}
+
+ul#menu li {
+	display: inline;
+	margin-right: 3px;
+}
+
+ul#menu li a {
+	background-color: #FF990A;
+	padding: 10px 5px;
+	text-decoration: none;
+	color: #181D3D;
+	border-radius: 10px 10px 0 0;
+}
+
+ul#menu li a:hover {
+	color: white;
+	background-color: #181D3D;
+}
+
+.stage{display :none}
+
+.entreprise{display:none}
