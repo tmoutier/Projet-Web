@@ -25,7 +25,7 @@ if($depart == stage){
    $duree = $_POST["duree_stage"];
    $annee = $_POST["annee_stage"];
    $entreprise = $_POST["nom_entreprise"];
-   $req4 = mysql_query("INSERT INTO entreprise (duree_stage, date_stage, nom_entreprise, id_utilisateur) VALUES ('".$duree."', '".$annee."', '".$entreprise."', '".$iduser."')");
+   $req4 = mysql_query("INSERT INTO entreprise (duree_stage, annee_stage, nom_entreprise) VALUES ('".$duree."', '".$annee."', '".$entreprise."')");
 }
 else{
      $duree = $_POST["duree_echange"];
@@ -33,7 +33,7 @@ else{
   $universite = $_POST["nom_universite"];
   $langue = $_POST["langue_cours"];
   $cours = $_POST["cours_interessants"];
-  $req3 = mysql_query("INSERT INTO universite (nom_universite, cours_interessants, duree_echange, langue_cours, id_utilisateur, date_echange) VALUES ('".$universite."', '".$cours."', '".$duree."', '".$langue."', '".$iduser."', '".$annee."')");  
+  $req3 = mysql_query("INSERT INTO universite (nom_universite, cours_interessants, duree_echange, langue_cours, date_echange) VALUES ('".$universite."', '".$cours."', '".$duree."', '".$langue."','".$annee."')");  
 }
 
 
